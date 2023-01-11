@@ -1,0 +1,126 @@
+.sidenav {
+  height: auto;
+  /* Full-height: remove this if you want "auto" height */
+  width: 20%;
+  /* Set the width of the sidebar */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 10px;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  float: right;
+}
+
+aside {
+  width: 20%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+}
+
+.checked {
+  color: orange;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: none;
+}
+
+.profil-id {
+  color: rgba(63, 236, 150, 0.76);
+}
+
+.bandeau {
+  background-image: url('https://cdn.pixabay.com/photo/2014/11/03/23/11/violin-516023_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.grid-accueil {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin: 20px;
+
+}
+
+.homePrincipalblock {
+  margin: 20px;
+}
+
+.homePrincipalblock button {
+  float: right;
+}
+
+.flex-accueil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidehome {
+  border-left-style: outset;
+
+}
+
+.sidehome img {
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  height: 5vw;
+  clip-path: ellipse(33% 50%);
+
+
+}
+
+
+
+
+/* Page recherche */
+#projet {
+  background-image: url('https://cdn.pixabay.com/photo/2016/09/08/21/09/piano-1655558_960_720.jpg')
+}
+
+.grid-containerResearch {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 20px;
+
+}
+
+.SearchResultEvent,
+.SearchResultPerson,
+.SearchResultGroup {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+
+}
+
+
+.card-result {
+  border-radius: 15px;
+  /* width: 250px; */
+  width: 17vw;
+}
+
+.card-textResearch {
+  text-align: justify;
+}
+
+.SerchFilters {
+  margin-left: 30px;
+}
+
+.card-textResearch {
+  width: 45vw;
+
+}

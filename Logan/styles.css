@@ -1,0 +1,185 @@
+aside {
+  max-width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.checked {
+  color: orange;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: none;
+}
+.profil-id {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+/* Page recherche */
+.grid-containerResearch {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 20px;
+}
+
+.SearchResultEvent,
+.SearchResultPerson,
+.SearchResultGroup {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+}
+.card-title {
+  font-size: 150%;
+}
+.card-body {
+  background-color: rgb(187, 187, 187);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.card-result {
+  border-radius: 15px;
+  width: 250px;
+}
+
+.card-textResearch {
+  text-align: justify;
+}
+
+.SerchFilters {
+  margin-left: 30px;
+}
+
+/*Pour ma section invité ds evenement */
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  clear: both;
+}
+.post-preview {
+  width: 100%;
+}
+/* tjrs pr evenement / aside */
+.nomprofil {
+  font-size: 150%;
+  text-align: center;
+  align-self: center;
+}
+.rounded-circle {
+  width: 100%;
+  height: auto;
+  margin-left: -0.5em;
+  display: flexbox;
+}
+.rounded-circle1 {
+  width: 100%;
+  height: auto;
+  margin-left: -0.5em;
+  display: flexbox;
+}
+
+/*pour le bloc audio
+sans cette ligne les audios dépassent la division*/
+.audio {
+  width: 100%;
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup2 .popuptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup2 .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
