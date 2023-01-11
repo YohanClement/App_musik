@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nom du site</title>   <!-- the title will appear on the page-->
+</head>
+
+<body>
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+	<form action="http://google.fr">
+
+		<div align="center"><!-- If we remove this, every thing will move to the left of the page-->
+
+			<h1>Création du profil</h1><!--Adds a heading to the form-->
+
+
+			<h2>Qui êtes vous ?</h2><!--Adds a heading to the form-->
+
+			Pseudo :
+
+			<input type="text" name="UserName" size=35 maxlength=35 value=""><!-- Input type text for small texts, specify size -->
+
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Mail  :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+			
+
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Mot de passe :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+
+
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Confirmation mot de passe  :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+			
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Adresse  :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+			
+
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Code postal  :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+			
+
+			</br></br><!--Adds spaces - remove and see what happens -->
+	
+			Ville  :
+	
+			<input type="text" name="Deptt" size=35 maxlength=35 value=""> 
+			
+			</br> </br>
+			
+			Photo de profil : 
+			</br> </br>
+			<form method="post" enctype="multipart/form-data">
+  				<div>
+  					  <label for="file">Choose file to upload</label>
+   					  <input type="file" id="file" name="file" multiple />
+ 				</div>
+				<div>
+					</br> </br>
+
+    					<button>Submit</button>
+ 				</div>
+				</form>
+			</br> </br>
+
+			Parlez nous de vous 
+
+			<textarea name="Comments" cols=30 rows=4></textarea> 
+
+
+			</br></br>
+
+			<h2> De quoi jouez vous ?</h2><!--Adds a heading to the form-->
+
+
+
+			<!--Select box lets you choose one of the multiple dropdown options-->
+	
+			<select name="activity" ><option>
+				<option value=1 selected = "true">Piano
+				<option value=2 >Guitare
+				<option value=3 >Flutte
+				<option value=4 >MAO
+				<option value=5 >Violon
+			</select>
+			</br></br>
+			
+			Quel est votre niveau ?
+
+			<input type="radio" name="exe" value=1>Débutant <!-- Radio buttons help you choose one out of the many values -->
+			<input type="radio" name="exe" value=2>Initié
+			<input type="radio" name="exe" value=3>Intermédiaire
+			<input type="radio" name="exe" value=4>Bon
+			<input type="radio" name="exe" value=5>Avancé
+			</br></br>
+
+
+			<h2>Votre playlist</h2><!--Adds a heading to the form-->
+
+
+		
+			<p>
+			Vos sons  : 
+			</br> </br>
+			<form method="post" enctype="multipart/form-data">
+  				<div>
+  					  <label for="file">Choose file to upload</label>
+   					  <input type="file" id="file" name="file" multiple />
+ 				</div>
+				<div>
+					</br> </br>
+
+    					<button>Submit</button>
+ 				</div>
+				</form>
+			</br> </br>
+
+			<!--submits the information entered in the form by the user -->
+			<input type=submit value="Submit form">
+
+
+			</br> </br>
+			
+			
+		</div>
+		
+	</form>
+	
+</body>
+
+</html>
