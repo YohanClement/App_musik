@@ -13,68 +13,60 @@
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
-  <link href="styles.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
 </head>
 </head>
 
-<br>
-  <header style="
-          background-image: url('https://cdn.pixabay.com/photo/2014/11/03/23/11/violin-516023_960_720.jpg');
-        background-repeat: no-repeat; background-size: cover;">
 
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-      <div class="container-fluid px-4 px-lg-5">
-    
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto py-4 py-lg-0">
-            <!-- home -->
-            <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="#"><i class="fas fa-home fa-2x"></i></a>
-            </li>
-            <!-- Profil  -->
-            <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="profil.html"><i class="fas fa-user fa-2x"></i></a>
-            </li>
-            <!-- Messagerie -->
-            <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="chat.html"><i class="far fa-comments fa-2x"></i></a>
-            </li>
-            <!-- ajouter un événement   -->
-            <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="CreaEvent.html"><i
-                  class="far fa-calendar-plus fa-2x"></i></a>
-            </li>
+<body>
+  <header class="bandeau">
 
-            <!-- Paramètres -->
-            <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="parameters.html"><i class="fas fa-sliders-h fa-2x"></i></a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-light topright">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <!-- home -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-home fa-2x"></i></a>
+                        </li>
+                        <!-- Messagerie visiteur -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="chat.html"><i class="far fa-comments fa-2x"></i></a>
+                        </li>
+                        <!-- ajouter un événement   -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="CreaEvent.html"><i class="far fa-calendar-plus fa-2x"></i></a>
+                        </li>
+                        <!-- Paramètres -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="parameters.html"><i class="fas fa-sliders-h fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+     </nav>
 
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container position-relative px-4 px-lg-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-          <div class="profil-id">
-            <h1>Paramètres</h1>
+    <div class="titre">
+     <h1 style="text-align:center">Paramètres</h1>            
             <!-- <span class="subheading">ll</span> -->
-            <div>
-              <input class="btn btn-primary" type=submit value=" Deconnexion" href="#">
+            </div>
+     <div class="btn-header">
+              <input class="btn btn btn-primary" type=submit value="Deconnexion" href="#">
               <input class="btn btn-primary" type=submit value="Modifier le profil" href="#">
               <input class="btn btn-primary" type=submit value="Supprimer ce compte" href="#">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+     </div>
+          
+        
   </header>
-  <br></br>
-  <br></br>
 
   <!-- Main Content-->
+  <div class="body">
     <div class="row gx-5 gx-lg-8 justify-content-center">
          <div class="col-lg-9">
             <div class="accordion" id="accordionExample">
@@ -156,7 +148,9 @@
           </div>
         </div>
          </div>
+         </div>
   </div>
+</div>
 </body>
 
 </html>
