@@ -67,7 +67,7 @@
 
   <!-- Main Content-->
   <div class="body">
-    <div class="row gx-5 gx-lg-8 justify-content-center">
+    <div class="row justify-content-center">
          <div class="col-lg-9">
             <div class="accordion" id="accordionExample">
                  <div class="accordion-item">
@@ -80,7 +80,8 @@
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
             data-bs-parent="#accordionExample">
               <div class="accordion-body">
-               
+        <form>
+              
         <label class="form-label" for="">Mot de passe actuel</label>
         <input class="form-control" type="password" name="UserName" size=25 maxlength=25 value="">
         <label class="form-label" for="">Nouveau mot de passe</label>
@@ -88,9 +89,10 @@
         <label class="form-label" for="">Confirmation du nouveau mot de passe</label>
         <input class="form-control" type="password" name="Deptt" size=25 maxlength=25 value=""><br>
         <button class="btn btn-primary" type="submit">Modifier le mot de passe</button>
-                 </div>
-                </div>
-                </div>
+        </form>         
+        </div>
+        </div>
+        </div>
         
              
           
@@ -106,13 +108,17 @@
             <div class="accordion-body">
                 <div class="post-preview">
                 <h6 class="post-title">Saissisez votre remarque</h6>
+                <form>
                 <textarea class="form-control" id="signalement" name="signalement" rows="5" cols="60" maxlength="2000"
-                  minlength="100" required></textarea> <br>
+                  minlength="100" required></textarea>
+                   <br>
                <button class="btn btn-primary" type="submit">Soumettre </button>
+               </form>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -124,7 +130,7 @@
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
               <div class="post-preview">
-                 <h6 class="post-title">Confidentialité</h6>
+                <form>
                  <label class="form-label" class="form-label" for="">Qui peut voir mon profil ?</label>
                  <input class="form-check-input" type="radio" name="exe" value=1> Public
                  <input class="form-check-input" type="radio" name="exe" value=2>Mes amis
@@ -141,6 +147,7 @@
                  <input class="form-check-input" type="radio" name="exe" value=3>Privé
                  <br><br>
                  <button class="btn btn-primary" type="submit">Soumettre les modifications </button>
+                 </form>
       </div>  
             
               
@@ -150,7 +157,18 @@
          </div>
          </div>
   </div>
+  
 </div>
+<footer class="footer">
+        <p>
+            Notre app est la meilleure
+        </p>
+    </footer>
+
+
 </body>
+
+
+
 
 </html>
